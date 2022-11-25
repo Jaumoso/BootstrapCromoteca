@@ -1,5 +1,5 @@
 # TheDeckMerchant
-Repositorio para el portal web de cromos TheDeckMerchant.Proyecto de TFG de Jaume Civera.
+Repositorio para el portal web de cromos TheDeckMerchant. Proyecto de TFG de Jaume Civera.
 
 
 Paquetes necesarios:
@@ -45,4 +45,3 @@ npm install bootstrap-social --save
  ------------------------------------------------------
 
 
- 
