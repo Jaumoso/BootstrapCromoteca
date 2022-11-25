@@ -33,5 +33,13 @@
   "homepage": "https://github.com/Jaumoso/TheDeckMerchant#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquerry": "^0.0.1-security",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1"
   }
 }
