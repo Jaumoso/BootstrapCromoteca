@@ -15,23 +15,23 @@
     <!-- Custom -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/x-icon" href="/figures/ico.png">
-    <title>The Deck Merchant</title>
+    <title>The Deck Merchant: Mercado</title>
 
 </head>
 
 <body>
 
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">The Deck Merchant</a>
+            <a class="navbar-brand" href="./index.html"><span><img src="./figures/TDMlogo.png" alt="TDMLogo" height="55"></span> The Deck Merchant</a>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="./colecciones.html"><span class="fa fa-list fa-lg"></span> Colecciones</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-shopping-bag"></span> Mercado</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-shopping-bag"></span> Mercado</a></li>
                         <li class="nav-item"><a class="nav-link" href="./perfil.html"><span class="fa fa-user"></span> Perfil</a></li>
                         <li class="nav-item"><a class="nav-link" href="./masinfo.html"><span class="fa fa-info fa-lg"></span> Más Información</a></li>
                     </ul>
@@ -46,38 +46,233 @@
                     <a href="#"><img class="col-12 col-sm-6" src="./figures/TDMlogo.png" alt="TDM Logo"></a>
                 </div>
                 <div class="col-12 col-sm-6 order-last align-self-center">
-                    <h1>The Deck Merchant</h1>
-                    <p>
-                    Tenemos justo lo que andas buscando.
-                    ¡Haz el seguimiento de tus colecciones en línea
-                    y olvídate de apuntarlas a mano!
-                    ¡Busca en nuestro mercado justo lo que te falta
-                    para terminar la colección!
-                    </p>
+                    <h1>Mercado</h1>
                 </div>
             </div>
         </div>
     </header>
 
+    <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+                <li class="breadcrumb-item active">Mercado</li>
+            </ol>
+        </div>
+
+    </div>
+
     <div class="container padding-top-inicio">
         <div class="row">
-            <div class="col-12 ">
-               <h3>Inicio</h3>
+            <div class="col-12">
+               <h3>Mercado</h3>
                <hr>
             </div>
         </div>
+    </div> 
 
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md order-sm-first">
-                <h2>Our History</h2>
-                <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong.  Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
-                <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
+    <div class="container" style="padding-top: 40px;">
+        <div class="row">
+            <div class="col-12 col-sm-6 shadow">
+                Búsqueda: <input type="text">
             </div>
-            <div class="col col-sm col-md order-sm-last">
+            <div class="col-12 col-sm-6 shadow">
+                <form action="#">
+                    <label for="order">Filtros: </label>
+                    <select name="order" id="order">
+                        <option value="">---</option>
+                        <option value="recent">Más reciente</option>
+                        <option value="older">Más antiguo</option>
+                        <option value="abc">Alfabéticamente</option>
+                    </select>
+                    <select name="type" id="type">
+                        <option value="">---</option>
+                        <option value="cromos">Cromos</option>
+                        <option value="cartas">Cartas</option>
+                        <option value="stacks">Stacks</option>
+                        <option value="figuritas">Figuritas</option>
+                    </select>
+                    <input type="submit" value="Enviar" />
+                </form>
             </div>
         </div>
+    </div>
 
+<br><br>
 
+    <div class="container">
+        <div class="row">
+            <div class="search">
+                
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 shadow-lg">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="#">
+                            <img class="pic-1" src="./figures/elements/pokacho-default.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Pokémon Cards 2006</a></h3>
+                        <div class="info">
+                            <span>Bulbasaur 001</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 shadow-lg">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="#">
+                            <img class="pic-1" src="./figures/elements/pokacho-default.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Pokémon Cards 2006</a></h3>
+                        <div class="info">
+                            <span>Ivysaur 002</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 shadow-lg">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="#">
+                            <img class="pic-1" src="./figures/elements/pokacho-default.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Pokémon Cards 2006</a></h3>
+                        <div class="info">
+                            <span>Venusaur 003</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 shadow-lg">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="#">
+                            <img class="pic-1" src="./figures/elements/pokacho-default.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Pokémon Cards 2006</a></h3>
+                        <div class="info">
+                            <span>Charmander 004</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 shadow-lg">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="#">
+                            <img class="pic-1" src="./figures/elements/pokacho-default.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Pokémon Cards 2006</a></h3>
+                        <div class="info">
+                            <span>Charmeleon 005</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 shadow-lg">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="#">
+                            <img class="pic-1" src="./figures/elements/pokacho-default.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Pokémon Cards 2006</a></h3>
+                        <div class="info">
+                            <span>Charizard 006</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 shadow-lg">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="#">
+                            <img class="pic-1" src="./figures/elements/pokacho-default.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Pokémon Cards 2006</a></h3>
+                        <div class="info">
+                            <span>Squirtle 007</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 shadow-lg">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="#">
+                            <img class="pic-1" src="./figures/elements/pokacho-default.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Pokémon Cards 2006</a></h3>
+                        <div class="info">
+                            <span>Wartortle 008</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
         <div class="row row-content align-items-center">
             <div class="col col-sm col-md">
                 <h2>Corporate Leadership</h2>
@@ -99,8 +294,7 @@
                 </div>
                 
             </div>
-       </div>
-
+        </div>
     </div>
 
     <footer class="footer">
