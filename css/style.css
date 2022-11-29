@@ -57,6 +57,40 @@ color: white;
     background-color: #883997;
 }
 
+/* Header Carousel */
+.carousel {
+    background: #ba68c8;
+}
+.carousel-item {
+    height: 400px;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 450px;
+}
+
+.carousel-item .carousel-img {
+    width: 100%;
+
+    opacity: 0.5;
+    background-color: black;
+}
+
+.carousel-caption {
+    background-color: #ba68c8;
+}
+
+.login {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    color: rgba(255,255,255,.5);
+}
+.login:hover {
+    color: #fff;
+}
+
 
 /********************* Elementos de colecciones, mercado y biblioteca  **********************/
 .product-grid3{font-family:Roboto,sans-serif;text-align:center;position:relative;z-index:1}
