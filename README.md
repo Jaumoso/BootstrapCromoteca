@@ -6,7 +6,7 @@ Paquetes necesarios:
 -------------------------------------------------------
 npm install bootstrap@4 --save
 
-Incluir las librerías al inicio del index.html, detro de <head>
+Incluir las librerías al inicio del index.html, detro de "<head>"
 
  <!-- Required meta tags always come first -->
     <meta charset="utf-8">
