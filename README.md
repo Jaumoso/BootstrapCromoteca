@@ -58,8 +58,8 @@ Crear nuevo script en package.json
   
   ----------------------------------------------------------
 
-npm install --save-dev onchange@3.3.0  (version opcional)
-npm install --save-dev parallelshell@3.0.2  (version opcional)
+npm install --save-dev onchange@3.3.0
+npm install --save-dev parallelshell@3.0.1 
 
 Cambiar los scripts en package.json
 
