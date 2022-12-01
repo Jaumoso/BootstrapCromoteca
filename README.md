@@ -59,6 +59,9 @@ Crear nuevo script en package.json
   ----------------------------------------------------------
 
 npm install --save-dev onchange@3.3.0  (version opcional)
+npm install --save-dev parallelshell@3.0.2  (version opcional)
+
+Cambiar los scripts en package.json
 
   "scripts": {
     "start": "npm run watch:all",
@@ -69,4 +72,4 @@ npm install --save-dev onchange@3.3.0  (version opcional)
     "watch:all": "paralellshell \"npm run watch:scss\" \"npm run lite\""
   },
 
-npm install --save-dev parallelshell@3.0.2  (version opcional)
+
