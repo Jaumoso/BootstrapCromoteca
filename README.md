@@ -1,20 +1,24 @@
-# TheDeckMerchant
-Repositorio para el portal web de cromos TheDeckMerchant. Proyecto de TFG de Jaume Civera.
+# Cromoteca
+Repositorio para el portal web de cromos Cromoteca. Proyecto de TFG de Jaume Civera.
 
 
-Paquetes necesarios:
+###Paquetes necesarios y preparación de entorno de trabajo:
 -------------------------------------------------------
+```
 npm install bootstrap@4 --save
+```
 
 Incluir las librerías al inicio del index.html, detro de la etiqueta HEAD
 
- <!-- Required meta tags always come first -->
+```
+    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+```
 -------------------------------------------------------
 npm install lite-server --save
 
@@ -71,5 +75,21 @@ Cambiar los scripts en package.json
     "watch:scss": "onchange \"css/*scss\" -- npm run scss",
     "watch:all": "paralellshell \"npm run watch:scss\" \"npm run lite\""
   },
+  
+  ------------------------------------------------------------ 
+  ##DEPLOYMENT
 
+Para limpiar la carpeta de distribución
+npm install rimraf@2.6.2 --save-dev
+
+  "scripts": {
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\" ",
+    "clean": "rimraf dist"
+
+  },
 
