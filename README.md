@@ -45,11 +45,8 @@ npm install bootstrap-social --save
 
  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
  ---------------------------------------------------------
- 
- npm install --global less --> For LESS to CSS transformation
- 
-Alternativa: 
-npm install node-sass --save-dev
+
+npm install node-sass --save-dev    --> For LESS to CSS transformation
 
 Crear nuevo script en package.json
   "scripts": {
