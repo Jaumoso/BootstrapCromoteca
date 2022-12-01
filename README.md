@@ -58,4 +58,15 @@ Crear nuevo script en package.json
   
   ----------------------------------------------------------
 
+npm install --save-dev onchange@3.3.0  (version opcional)
 
+  "scripts": {
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*scss\" -- npm run scss",
+    "watch:all": "paralellshell \"npm run watch:scss\" \"npm run lite\""
+  },
+
+npm install --save-dev parallelshell@3.0.2  (version opcional)
